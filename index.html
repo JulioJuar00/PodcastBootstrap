@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podcast Site</title>
+   <!-- Icon Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu" rel="stylesheet">
+<!-- Fav Icon -->
+  <link rel="icon" href="images/favicon.ico">
+<!-- Bootstrap Links -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- CSS styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+       <a class="navbar-brand" href="">Podcast</a>
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#recomendations">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#taco-podcast">Podcast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact us</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <!-- Title -->
+  <div class = "row">
+    <div class = "col-lg-6">
+      <h1 class = "the-title"> Welcome!<br>Listen to our Podcasts here.</h1>
+
+      <button type="button" class="btn btn-dark listen-button"><i class="fab fa-apple"></i> Apple</button>
+      <button type="button" class="btn btn-outline-light listen-button"><i class="fab fa-android"></i> Android</button>
+    </div>
+
+    <div class = "col-lg-6">
+      <img class = "title-image" src="images/rating2.png" alt="review-logo">
+    </div>
+  </div>
+  </div>
+
+  </section>
+
+
+
+  <!-- recomendations -->
+
+  <section id="recomendations">
+    <div class="about-us">
+    <h2>We should come up with a name for ourselves.</h2>
+    <h2>We are a group of friends looking for the best experiences in NYC, each week we decide on what to try and each of us comes up with a place in NYC to try it.</h2>
+    </div>
+    <div class="row">
+
+    <div class = "recomendations-box col-lg-4">
+      <i class="icon fas fa-utensils fa-5x"></i>
+      <h3>Food</h3>
+      <p>Restaurants or food to try.</p>
+    </div>
+
+    <div class = "recomendations-box col-lg-4">
+      <i class="icon fas fa-beer fa-5x"></i>
+      <h3>Drinks</h3>
+      <p>Drinks or bars to try.</p>
+  </div>
+
+    <div class = "recomendations-box col-lg-4">
+      <i class="icon fas fa-map-marked-alt fa-5x"></i>
+      <h3>Experiences</h3>
+      <p>Favorite experiences in NYC.</p>
+    </div>
+  </div>
+
+
+  </section>
+
+
+  <!-- The taco podcast  -->
+
+  <section id="taco-podcast">
+    <h1 class = "the-title"> The Taco Podcast.</h1> <br>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h3><a class = "places-link" href="http://places.singleplatform.com/los-tacos-no-1/menu?ref=google">Los Tacos No.1</a></h3><br>
+      <h2>The authentic taste comes from family recipes and from fresh, simple and tasteful ingredients straight from home. In every taco from LOS TACOS No.1 there is a bit of true Mexican culture and flavor.</h2><br>
+      <img class = "places-image" src="images/LosTacosNo1.jpg" alt="LosTacosNo1">
+      <em>Chelsea, New York</em>
+
+    </div>
+    <div class="carousel-item">
+
+      <h3><a class = "places-link" href="https://www.yelp.com/biz/regalo-de-juquila-brooklyn">El Regalo de Juaquila</a></h3><br>
+      <h2>Utilitarian counter serve selling Mexican fare, American breakfast & bottled beers till late.</h2><br>
+      <img class="places-image" src="images/Regalo.jpg" alt="regalo">
+      <em>Brooklyn, New York</em>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+  </section>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class = "social-images fab fa-facebook fa-4x"></i>
+    <i class = "social-images fab fa-instagram fa-4x"></i>
+    <i class = "social-images fab fa-twitter-square fa-4x"></i>
+    <i class = "social-images fas fa-envelope fa-4x"></i>
+    <p>© Copyright 2019 Podcast</p>
+
+  </footer>
+
+
+</body>
+
+</html>
