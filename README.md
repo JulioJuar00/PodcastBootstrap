@@ -1,2 +1,2 @@
 # PodcastBootstrap
-inital files submitted
+initial files submitted
